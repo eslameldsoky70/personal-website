@@ -72,6 +72,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 11rem;
+  overflow-x: hidden
 }
 
 body,
@@ -523,6 +524,7 @@ html:has(.toggle_checkbox:checked) {
 @media (max-width: 800px) {
   .container {
     row-gap: 8rem;
+    overflow-x: hidden
   }
   .section {
     grid-template-columns: 1fr;
