@@ -1,7 +1,6 @@
 @charset "UTF-8";
 :root {
   --container-width: 119rem;
-  --gutter: 2rem;
   --color-black: #000;
   --color-white: #fff;
   --color-blue: #2374e1;
@@ -88,7 +87,7 @@ body,
   display: grid;
   row-gap: 11rem;
   margin: 0 auto;
-  max-width: calc(var(--container-width) + var(--gutter) * 2);
+  max-width: var(--container-width);
   padding: 0 12px;
 }
 
@@ -389,6 +388,7 @@ body,
   margin-bottom: 10px;
   color: var(--color-text);
   font-weight: var(--font-weight-semi-bold);
+  text-align: center;
 }
 .description__project {
   margin-bottom: 10px;
