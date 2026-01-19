@@ -88,7 +88,7 @@ body,
   row-gap: 11rem;
   margin: 0 auto;
   max-width: var(--container-width);
-  padding: 0 12px;
+  padding: 0 10px;
 }
 
 .video-loop {
