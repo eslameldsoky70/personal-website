@@ -577,17 +577,17 @@ html:has(.toggle_checkbox:checked) {
     background-color: var(--color-text);
     transition: var(--transition-timing);
   }
-  .burger-menu__checkbox:checked + .navigation {
+  .burger-menu_checkbox:checked + .navigation {
     top: 100%;
   }
-  .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(1) {
+  .header:has(.burger-menu_checkbox:checked) .burger-menu__bar:nth-child(1) {
     transform: translateY(10px) rotate(40deg);
   }
-  .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(2) {
+  .header:has(.burger-menu_checkbox:checked) .burger-menu__bar:nth-child(2) {
     opacity: 0;
     visibility: hidden;
   }
-  .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(3) {
+  .header:has(.burger-menu_checkbox:checked) .burger-menu__bar:nth-child(3) {
     transform: translateY(-7px) rotate(-40deg);
   }
   .navigation {
@@ -599,7 +599,7 @@ html:has(.toggle_checkbox:checked) {
     z-index: -1;
     width: 100vw;
   }
-  .navigation__list {
+  .navigation_list {
     justify-content: center;
   }
   .toggle {
